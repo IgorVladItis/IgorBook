@@ -1,0 +1,35 @@
+.row {
+    margin: 0;
+    padding:0;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+.logo{
+    max-width: 150px;
+    height: auto;
+}
+
+.book-container{
+    border: 1px #cccccc solid;
+    border-radius: 5px;
+    margin: 5px;
+    min-height: 250px;
+}
+
+.book-header{
+    width: 100%;
+    background-color: #b6effb;
+    height: 40px;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.book-img{
+    min-width: 70px;
+    max-width: 100px;
+    height: 100%;
+}
+
+.book-content{
+    height: calc(100% - 40px);;
+}
